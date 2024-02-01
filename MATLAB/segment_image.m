@@ -26,6 +26,9 @@
 %% This function is derived from the Canny Edge Detection MATLAB function provided by GAGAN. 
 %% http://www.mathworks.com/matlabcentral/fileexchange/30621-canny-edge-detection
 %% Enrique Molero, MSc Artificial Intelligence, King's College London
+% Feel free to change sizes of the Standard Deviation and Gaussian Mask,
+% there are no perfect parameters, this need to be adjusted depending on
+% the image and the score will be measure with other methods.
 function [gnh]= segment_image(I)
     ia_gray = im2gray(I);
     iag = im2double(ia_gray);

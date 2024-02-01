@@ -5,7 +5,7 @@ function compare_segmentations(imNum)
 %Note, this function assumes that images and their corresponding human segmentations 
 %are stored in a sub-directory "Images" of the current working directory. If they are 
 %stored elsewhere, change the following to point to the correct location:
-ImDir='Images/';
+ImDir='../Images/';
 
 %load image 
 imFile=[ImDir,'im',int2str(imNum),'.jpg'];
@@ -29,7 +29,7 @@ end
 humanFiles=[ImDir,'im',int2str(imNum),'seg*.png'];
 numFiles=length(dir(humanFiles));
 for i=1:numFiles
-    humanFile=['Images/im',int2str(imNum),'seg',int2str(i),'.png'];
+    humanFile=['../Images/im',int2str(imNum),'seg',int2str(i),'.png'];
     boundariesHuman(:,:,i)=im2double(imread(humanFile));
 end
 

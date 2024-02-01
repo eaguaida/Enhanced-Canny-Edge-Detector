@@ -1,1 +1,1 @@
-compare_segmentations(1)
+compare_segmentations(2)
