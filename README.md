@@ -1,4 +1,5 @@
-# Enhanced Canny Edge Detector for Image Segmentation
+# Canny Edge Detector with Non-Maximum Supression
+# MATLAB and Python implementation
 
 ## Table of Contents
 
