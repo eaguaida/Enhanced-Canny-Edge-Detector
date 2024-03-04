@@ -8,8 +8,7 @@
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
+- [References](#references)
 - [License](#license)
 
 ## Introduction
@@ -82,4 +81,4 @@ Richard E. Woods
 
 ## License
 
-The Enhanced Canny Edge Detector for Image Segmentation is open-source and available under [license name]. Please refer to the LICENSE file for more details.
+The Enhanced Canny Edge Detector for Image Segmentation is open-source and available under [eaguaida]. Please refer to the LICENSE file for more details.
